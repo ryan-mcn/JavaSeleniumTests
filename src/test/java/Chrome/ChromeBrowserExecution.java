@@ -16,7 +16,7 @@ public class ChromeBrowserExecution {
 
         WebDriver driver=new ChromeDriver();
 
-        driver.get("ryanp.ellucid.com");
+        driver.get("https://ryanp.ellucid.com");
 
         System.out.println(driver.getTitle());
 
