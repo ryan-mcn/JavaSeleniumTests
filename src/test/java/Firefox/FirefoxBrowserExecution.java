@@ -14,7 +14,7 @@ public class FirefoxBrowserExecution {
 
         WebDriver driver = new FirefoxDriver();
 
-        driver.get("ryanp.ellucid.com");
+        driver.get("https://ryanp.ellucid.com");
 
         System.out.println(driver.getTitle());
 
