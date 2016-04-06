@@ -29,6 +29,7 @@ public class Login {
 
         driver.findElement(By.id("loginButton")).click();
 
+        System.out.println(driver.get("Log in unsuccessful. Your username or password is incorrect.");
 
 
 //Unsuccessful Login PW
@@ -44,6 +45,7 @@ public class Login {
 
         driver.findElement(By.id("loginButton")).click();
 
+        System.out.println(driver.get("Log in unsuccessful. Your username or password is incorrect.");
 
 
 //Successful Login Test
